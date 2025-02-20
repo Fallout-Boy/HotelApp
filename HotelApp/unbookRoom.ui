@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>unbookRoom</class>
+ <widget class="QDialog" name="unbookRoom">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Розбронювання</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>../images/unbooking.png</normaloff>../images/unbooking.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(104, 104, 104);</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>20</y>
+     <width>341</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: qconicalgradient(cx:0, cy:0, angle:135, stop:0 rgba(255, 255, 0, 69), stop:0.375 rgba(255, 255, 0, 69), stop:0.423533 rgba(251, 255, 0, 145), stop:0.45 rgba(247, 255, 0, 208), stop:0.477581 rgba(255, 244, 71, 130), stop:0.518717 rgba(255, 218, 71, 130), stop:0.55 rgba(255, 255, 0, 255), stop:0.57754 rgba(255, 203, 0, 130), stop:0.625 rgba(255, 255, 0, 69), stop:1 rgba(255, 255, 0, 69));
+font-size: 24px;
+text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+transition: all 0.3s ease;</string>
+   </property>
+   <property name="text">
+    <string>Розбронювання номера</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>120</y>
+     <width>141</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QComboBox {
+    border: 1px solid #5b5b5b; 
+    selection-background-color: #007ACC; 
+	color: #ffffff;
+}
+QComboBox QAbstractItemView {
+    border: 1px solid #ccc; 
+    background-color: #ffffff; 
+    selection-background-color: #007ACC;
+}
+</string>
+   </property>
+   <property name="currentText">
+    <string/>
+   </property>
+   <property name="placeholderText">
+    <string>-</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="unbookButton">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>220</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+	background-color: #410000;
+	color: #fff;
+	padding: 0px 5px;
+	border: 2px solid #000000;
+	border-radius: 5px;
+	transition: background-color 0.3s, color 0.3s;
+	font-size: 14px;
+	font-family: Roobert
+}
+QPushButton:hover {
+	background-color: #a80000;
+}
+QPushButton:pressed {
+	background-color: #df0000;
+	border: 3px solid #000000;
+}</string>
+   </property>
+   <property name="text">
+    <string>Розбронювати</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="cancelButton">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>220</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+	background-color: #410000;
+	color: #fff;
+	padding: 0px 5px;
+	border: 2px solid #000000;
+	border-radius: 5px;
+	transition: background-color 0.3s, color 0.3s;
+	font-size: 14px;
+	font-family: Roobert
+}
+QPushButton:hover {
+	background-color: #a80000;
+}
+QPushButton:pressed {
+	background-color: #df0000;
+	border: 3px solid #000000;
+}</string>
+   </property>
+   <property name="text">
+    <string>Скасувати</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>124</y>
+     <width>111</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-size: 16px;
+text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+transition: all 0.3s ease;</string>
+   </property>
+   <property name="text">
+    <string>Виберіть дату:</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

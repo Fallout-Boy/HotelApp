@@ -1,0 +1,1223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>main</class>
+ <widget class="QMainWindow" name="main">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>814</width>
+    <height>481</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Управління номерами</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>../images/logo.png</normaloff>../images/logo.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(104, 104, 104);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTableWidget" name="tableWidget">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>45</y>
+      <width>361</width>
+      <height>366</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QTableWidget {
+	background-color: gray;
+    border: 1px solid #ccc;
+    font-family: Inter,sans-serif;
+}
+QTableWidget::item:selected {
+    background-color: #aa55ff;
+}
+QHeaderView::section {
+    background-color: darkgray;
+	color: black;
+    padding: 4px;
+}</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::Panel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Sunken</enum>
+    </property>
+    <property name="verticalScrollBarPolicy">
+     <enum>Qt::ScrollBarAsNeeded</enum>
+    </property>
+    <property name="alternatingRowColors">
+     <bool>false</bool>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>10</width>
+      <height>10</height>
+     </size>
+    </property>
+    <property name="textElideMode">
+     <enum>Qt::ElideMiddle</enum>
+    </property>
+    <property name="showGrid">
+     <bool>true</bool>
+    </property>
+    <property name="gridStyle">
+     <enum>Qt::CustomDashLine</enum>
+    </property>
+    <property name="wordWrap">
+     <bool>true</bool>
+    </property>
+    <property name="cornerButtonEnabled">
+     <bool>false</bool>
+    </property>
+    <property name="rowCount">
+     <number>9</number>
+    </property>
+    <property name="columnCount">
+     <number>10</number>
+    </property>
+    <attribute name="horizontalHeaderDefaultSectionSize">
+     <number>50</number>
+    </attribute>
+    <attribute name="verticalHeaderDefaultSectionSize">
+     <number>35</number>
+    </attribute>
+    <row>
+     <property name="text">
+      <string>1</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>2</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>3</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>4</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>5</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>6</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>7</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>8</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>9</string>
+     </property>
+    </row>
+    <column>
+     <property name="text">
+      <string>01</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>02</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>03</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>04</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>05</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>06</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>07</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>08</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>09</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>10</string>
+     </property>
+    </column>
+    <item row="0" column="0">
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item row="0" column="1">
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item row="0" column="2">
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item row="0" column="3">
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item row="0" column="4">
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item row="0" column="5">
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item row="1" column="0">
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item row="2" column="0">
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item row="3" column="0">
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>50</y>
+      <width>160</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: #000000;
+font-size: 16px;
+text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+transition: all 0.3s ease;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_8">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>100</y>
+      <width>160</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: #000000;
+font-size: 16px;
+text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+transition: all 0.3s ease;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="textFormat">
+     <enum>Qt::AutoText</enum>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_9">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>125</y>
+      <width>160</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: #000000;
+font-size: 16px;
+text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+transition: all 0.3s ease;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_10">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>150</y>
+      <width>160</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: #000000;
+font-size: 16px;
+text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+transition: all 0.3s ease;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_11">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>175</y>
+      <width>160</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: #000000;
+font-size: 16px;
+text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+transition: all 0.3s ease;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>75</y>
+      <width>160</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: #000000;
+font-size: 16px;
+text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+transition: all 0.3s ease;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_12">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>200</y>
+      <width>160</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: #000000;
+font-size: 16px;
+text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+transition: all 0.3s ease;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_13">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>225</y>
+      <width>160</width>
+      <height>42</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: #000000;
+font-size: 16px;
+text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+transition: all 0.3s ease;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_14">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>270</y>
+      <width>160</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: #000000;
+font-size: 16px;
+text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+transition: all 0.3s ease;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_15">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>305</y>
+      <width>160</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: #000000;
+font-size: 16px;
+text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+transition: all 0.3s ease;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_16">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>330</y>
+      <width>160</width>
+      <height>42</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: #000000;
+font-size: 16px;
+text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+transition: all 0.3s ease;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="closeButton">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>20</y>
+      <width>31</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton:hover {
+	background-color: #2980b9;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../images/cross.png</normaloff>../images/cross.png</iconset>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="editButton">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>390</y>
+      <width>111</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	border: 2px solid #111;
+	border-radius: 8px;
+	padding: 0px 5px;
+	color: rgb(0, 0, 0);
+	background-color: #ffdeda;
+	font-size: 14px;
+	font-family: Inter,sans-serif;
+}
+QPushButton:hover {
+	background-color: #ffaaff;
+}
+QPushButton:pressed {
+	background-color: #aaaa00;
+	border: 2px solid #154360;
+}</string>
+    </property>
+    <property name="text">
+     <string>Редагувати</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="bookButton">
+    <property name="geometry">
+     <rect>
+      <x>195</x>
+      <y>390</y>
+      <width>111</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	border: 2px solid #111;
+	border-radius: 8px;
+	padding: 0px 5px;
+	color: rgb(0, 0, 0);
+	background-color: #ffdeda;
+	font-size: 14px;
+	font-family: Inter,sans-serif;
+}
+QPushButton:hover {
+	background-color: #ffaaff;
+}
+QPushButton:pressed {
+	background-color: #aaaa00;
+	border: 2px solid #154360;
+}</string>
+    </property>
+    <property name="text">
+     <string>Забронювати</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="addRoomButton">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>430</y>
+      <width>121</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	border: 2px solid #111;
+	border-radius: 8px;
+	padding: 0px 5px;
+	color: rgb(0, 0, 0);
+	background-color: #ffdeda;
+	font-size: 14px;
+	font-family: Inter,sans-serif;
+}
+QPushButton:hover {
+	background-color: #ffaaff;
+}
+QPushButton:pressed {
+	background-color: #aaaa00;
+	border: 2px solid #154360;
+}</string>
+    </property>
+    <property name="text">
+     <string>Додати номер</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_25">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>270</y>
+      <width>145</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: #000000;
+font-size: 14px;
+text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+transition: all 0.3s ease;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="wordWrap">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_26">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>305</y>
+      <width>145</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: #000000;
+font-size: 16px;
+text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+transition: all 0.3s ease;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="wordWrap">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_27">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>330</y>
+      <width>145</width>
+      <height>42</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: #000000;
+font-size: 14px;
+text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+transition: all 0.3s ease;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="wordWrap">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_18">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>75</y>
+      <width>145</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: #000000;
+font-size: 16px;
+text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+transition: all 0.3s ease;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_17">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>50</y>
+      <width>145</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: #000000;
+font-size: 16px;
+text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+transition: all 0.3s ease;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_20">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>125</y>
+      <width>145</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: #000000;
+font-size: 16px;
+text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+transition: all 0.3s ease;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_21">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>150</y>
+      <width>145</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: #000000;
+font-size: 16px;
+text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+transition: all 0.3s ease;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_19">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>100</y>
+      <width>145</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: #000000;
+font-size: 16px;
+text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+transition: all 0.3s ease;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="textFormat">
+     <enum>Qt::AutoText</enum>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_22">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>175</y>
+      <width>145</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: #000000;
+font-size: 16px;
+text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+transition: all 0.3s ease;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_23">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>200</y>
+      <width>145</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: #000000;
+font-size: 16px;
+text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+transition: all 0.3s ease;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_24">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>225</y>
+      <width>145</width>
+      <height>42</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>0</width>
+      <height>0</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: #000000;
+font-size: 14px;
+text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+transition: all 0.3s ease;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="textFormat">
+     <enum>Qt::AutoText</enum>
+    </property>
+    <property name="scaledContents">
+     <bool>false</bool>
+    </property>
+    <property name="wordWrap">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="closeButton_2">
+    <property name="geometry">
+     <rect>
+      <x>730</x>
+      <y>20</y>
+      <width>31</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton:hover {
+	background-color: #2980b9;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../images/cross.png</normaloff>../images/cross.png</iconset>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_28">
+    <property name="geometry">
+     <rect>
+      <x>389</x>
+      <y>20</y>
+      <width>321</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: #000000;
+font-size: 16px;
+text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+transition: all 0.3s ease;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="textFormat">
+     <enum>Qt::AutoText</enum>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QDockWidget" name="dockWidget1">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(59, 59, 88);</string>
+   </property>
+   <property name="floating">
+    <bool>false</bool>
+   </property>
+   <property name="features">
+    <set>QDockWidget::NoDockWidgetFeatures</set>
+   </property>
+   <property name="allowedAreas">
+    <set>Qt::AllDockWidgetAreas</set>
+   </property>
+   <attribute name="dockWidgetArea">
+    <number>1</number>
+   </attribute>
+   <widget class="QWidget" name="dockWidgetContents_4">
+    <widget class="QPushButton" name="menuButton">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>-2</x>
+       <y>0</y>
+       <width>41</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton:hover {
+	background-color: #2980b9;
+}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../images/menu.png</normaloff>
+       <normalon>../images/menu_close2.png</normalon>
+       <selectedoff>../images/menu.png</selectedoff>
+       <selectedon>../images/menu_close2.png</selectedon>../images/menu.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>24</width>
+       <height>24</height>
+      </size>
+     </property>
+     <property name="flat">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="menuButton_1">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>50</y>
+       <width>201</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="layoutDirection">
+      <enum>Qt::LeftToRight</enum>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+	border: 2px solid #2980b9;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(52, 52, 156);
+}
+QPushButton:hover {
+	background-color: #2980b9;
+}
+QPushButton:pressed {
+	background-color: #1f618d;
+	border: 2px solid #154360;
+}</string>
+     </property>
+     <property name="text">
+      <string>Пошук вільних номерів</string>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>24</width>
+       <height>24</height>
+      </size>
+     </property>
+     <property name="shortcut">
+      <string/>
+     </property>
+     <property name="checkable">
+      <bool>false</bool>
+     </property>
+     <property name="checked">
+      <bool>false</bool>
+     </property>
+     <property name="autoDefault">
+      <bool>false</bool>
+     </property>
+     <property name="default">
+      <bool>false</bool>
+     </property>
+     <property name="flat">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="menuButton_2">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>100</y>
+       <width>201</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="layoutDirection">
+      <enum>Qt::LeftToRight</enum>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+	border: 2px solid #2980b9;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(52, 52, 156);
+}
+QPushButton:hover {
+	background-color: #2980b9;
+}
+QPushButton:pressed {
+	background-color: #1f618d;
+	border: 2px solid #154360;
+}</string>
+     </property>
+     <property name="text">
+      <string>    Пошук номерів за вартістю</string>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>24</width>
+       <height>24</height>
+      </size>
+     </property>
+     <property name="shortcut">
+      <string/>
+     </property>
+     <property name="checkable">
+      <bool>false</bool>
+     </property>
+     <property name="checked">
+      <bool>false</bool>
+     </property>
+     <property name="autoDefault">
+      <bool>false</bool>
+     </property>
+     <property name="default">
+      <bool>false</bool>
+     </property>
+     <property name="flat">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="menuButton_3">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>150</y>
+       <width>201</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="layoutDirection">
+      <enum>Qt::LeftToRight</enum>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+	border: 2px solid #2980b9;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(52, 52, 156);
+}
+QPushButton:hover {
+	background-color: #2980b9;
+}
+QPushButton:pressed {
+	background-color: #1f618d;
+	border: 2px solid #154360;
+}</string>
+     </property>
+     <property name="text">
+      <string>Визначення користувача</string>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>24</width>
+       <height>24</height>
+      </size>
+     </property>
+     <property name="shortcut">
+      <string/>
+     </property>
+     <property name="checkable">
+      <bool>false</bool>
+     </property>
+     <property name="checked">
+      <bool>false</bool>
+     </property>
+     <property name="autoDefault">
+      <bool>false</bool>
+     </property>
+     <property name="default">
+      <bool>false</bool>
+     </property>
+     <property name="flat">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="menuButton_4">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>200</y>
+       <width>201</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="layoutDirection">
+      <enum>Qt::LeftToRight</enum>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+	border: 2px solid #2980b9;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(52, 52, 156);
+}
+QPushButton:hover {
+	background-color: #2980b9;
+}
+QPushButton:pressed {
+	background-color: #1f618d;
+	border: 2px solid #154360;
+}</string>
+     </property>
+     <property name="text">
+      <string>Користувачі (&gt;2 номери)</string>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>24</width>
+       <height>24</height>
+      </size>
+     </property>
+     <property name="shortcut">
+      <string/>
+     </property>
+     <property name="checkable">
+      <bool>false</bool>
+     </property>
+     <property name="checked">
+      <bool>false</bool>
+     </property>
+     <property name="autoDefault">
+      <bool>false</bool>
+     </property>
+     <property name="default">
+      <bool>false</bool>
+     </property>
+     <property name="flat">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="menuButton_5">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>250</y>
+       <width>201</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="layoutDirection">
+      <enum>Qt::LeftToRight</enum>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+	border: 2px solid #2980b9;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(52, 52, 156);
+}
+QPushButton:hover {
+	background-color: #2980b9;
+}
+QPushButton:pressed {
+	background-color: #1f618d;
+	border: 2px solid #154360;
+}</string>
+     </property>
+     <property name="text">
+      <string>Найпопулярніший номер</string>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>24</width>
+       <height>24</height>
+      </size>
+     </property>
+     <property name="shortcut">
+      <string/>
+     </property>
+     <property name="checkable">
+      <bool>false</bool>
+     </property>
+     <property name="checked">
+      <bool>false</bool>
+     </property>
+     <property name="autoDefault">
+      <bool>false</bool>
+     </property>
+     <property name="default">
+      <bool>false</bool>
+     </property>
+     <property name="flat">
+      <bool>false</bool>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

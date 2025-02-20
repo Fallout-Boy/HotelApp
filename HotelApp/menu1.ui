@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>menu1</class>
+ <widget class="QDialog" name="menu1">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Пошук</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>../images/search.png</normaloff>../images/search.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(104, 104, 104);
+</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>20</y>
+     <width>311</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-size: 20px;
+text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+transition: all 0.3s ease;</string>
+   </property>
+   <property name="text">
+    <string>Пошук вільних номерів на            вказані дати</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="wordWrap">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QDateEdit" name="dateEdit">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>140</y>
+     <width>110</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: 1px solid #353535;
+border-radius: 5px;
+font-size: 14px;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>123</x>
+     <y>170</y>
+     <width>41</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-size: 16px;
+text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+transition: all 0.3s ease;</string>
+   </property>
+   <property name="text">
+    <string>до:</string>
+   </property>
+  </widget>
+  <widget class="QDateEdit" name="dateEdit_2">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>170</y>
+     <width>110</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: 1px solid #353535;
+border-radius: 5px;
+font-size: 14px;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>140</y>
+     <width>41</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-size: 16px;
+text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+transition: all 0.3s ease;</string>
+   </property>
+   <property name="text">
+    <string>Від:</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="searchButton">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>240</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+	background-color: #410000;
+	color: #fff;
+	padding: 0px 5px;
+	border: 2px solid #000000;
+	border-radius: 5px;
+	transition: background-color 0.3s, color 0.3s;
+	font-size: 14px;
+	font-family: Roobert
+}
+QPushButton:hover {
+	background-color: #a80000;
+}
+QPushButton:pressed {
+	background-color: #df0000;
+	border: 3px solid #000000;
+}</string>
+   </property>
+   <property name="text">
+    <string>Пошук</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

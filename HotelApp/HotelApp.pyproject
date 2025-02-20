@@ -1,0 +1,17 @@
+{
+    "files": [
+        "main.py",
+        "form.ui",
+        "addRoom.ui",
+        "editRoom.ui",
+        "bookRoom.ui",
+        "unbookRoom.ui",
+        "info.ui",
+        "error.ui",
+        "question.ui",
+        "menu1.ui",
+        "menu2.ui",
+        "result.ui",
+        "room.py"
+    ]
+}
